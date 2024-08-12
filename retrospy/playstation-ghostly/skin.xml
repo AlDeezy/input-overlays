@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- if you're reading this, you should ask questions about this file and how it works. -->
+
+
+<skin name="GhostlyShock 2" author="aldeezy1" type="playstation;playstation3;playstation4">
+
+    <background name="Good Luck Today." image="BG.png" />
+
+    <button name="circle" image="CIRCLE.png" x="0" y="0" width="800" height="600" />
+    <button name="square" image="SQUARE.png" x="0" y="0" width="800" height="600" />
+    <button name="triangle" image="TRIANGLE.png" x="0" y="0" width="800" height="600" />
+    <button name="x" image="CROSS.png" x="0" y="0" width="800" height="600" />
+	
+	<!-- make sure you keep L2 and R2 first, so they are rendered behind L1 and R1 -->
+    <button name="l2" image="L2.png" x="0" y="0" width="800" height="600" />
+    <button name="r2" image="R2.png" x="0" y="0" width="800" height="600" />
+    <button name="l1" image="L1.png" x="0" y="0" width="800" height="600" />
+    <button name="r1" image="R1.png" x="0" y="0" width="800" height="600" />
+
+    <button name="start" image="START.png" x="0" y="0" width="800" height="600" />
+    <button name="select" image="SELECT.png" x="0" y="0" width="800" height="600" />
+
+    <button name="up" image="UP.png" x="0" y="0" width="800" height="600" />
+    <button name="left" image="LEFT.png" x="0" y="0" width="800" height="600" />
+	<button name="down" image="DOWN.png" x="0" y="0" width="800" height="600" />
+    <button name="right" image="RIGHT.png" x="0" y="0" width="800" height="600" />
+
+	<button name="lstick" image="L3.png" x="0" y="0" width="800" height="600" />
+
+	<button name="rstick" image="R3.png" x="0" y="0" width="800" height="600" />
+	
+	
+	<!-- to change the maximum distance from center for the analog, lower the "xrange" and "yrange" values. -->
+	<stick xname="lstick_x" yname="lstick_y" image="ANALOG_L.png"
+	   x="0" y="0" width="800" height="600" xrange="20" yrange="20" yreverse="true" />
+	<stick xname="rstick_x" yname="rstick_y" image="ANALOG_R.png"
+	   x="0" y="0" width="800" height="600" xrange="20" yrange="20" yreverse="true" />
+</skin>
+
+

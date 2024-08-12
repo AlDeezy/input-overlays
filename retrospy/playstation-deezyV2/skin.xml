@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin name="Deezy's DualShock 2 V2" author="aldeezy1" type="playstation;playstation3;playstation4">
+
+    <background name="Default" image="BG.png" />
+
+    <button name="circle" image="CIRCLE.png" x="0" y="0" width="800" height="600" />
+    <button name="square" image="SQUARE.png" x="0" y="0" width="800" height="600" />
+    <button name="triangle" image="TRIANGLE.png" x="0" y="0" width="800" height="600" />
+    <button name="x" image="X.png" x="0" y="0" width="800" height="600" />
+
+    <button name="l1" image="L1.png" x="0" y="0" width="800" height="600" />
+    <button name="r1" image="R1.png" x="0" y="0" width="800" height="600" />
+    <button name="l2" image="L2.png" x="0" y="0" width="800" height="600" />
+    <button name="r2" image="R2.png" x="0" y="0" width="800" height="600" />
+
+    <button name="start" image="START.png" x="0" y="0" width="800" height="600" />
+    <button name="select" image="SELECT.png" x="0" y="0" width="800" height="600" />
+
+    <button name="up" image="UP.png" x="0" y="0" width="800" height="600" />
+    <button name="left" image="LEFT.png" x="0" y="0" width="800" height="600" />
+	<button name="down" image="DOWN.png" x="0" y="0" width="800" height="600" />
+    <button name="right" image="RIGHT.png" x="0" y="0" width="800" height="600" />
+
+	<button name="lstick" image="L3.png" x="0" y="0" width="800" height="600" />
+	
+	<stick xname="lstick_x" yname="lstick_y" image="ANALOG.png"
+	   x="0" y="0" width="800" height="600" xrange="55" yrange="55" yreverse="true" />
+</skin>
+
+<!--
+    BUTTON      X POS   Y POS    WIDTH  HEIGHT
+    Circle      734     215      92     92
+    Square      551     215      92     92
+    Triangle    643     124      92     92
+    X           643     306      92     92
+    L1          59      104      142    88
+    R1          758     104      142    88
+    L2          59      4        142    88
+    R2          758     4        142    88
+    Start       504     82       93     66
+    Select      381     82       92     66
+    Up          235     143      70     97
+    Left        153     226      96     69
+    Down        236     281      69     97
+    Right       292     226      96     69
+    L3          227     449      222    222
+    R3          511     449      222    222
+    LAnalog     245     467      187    187
+    RAnalog     529     467      187    187
+-->
